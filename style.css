@@ -1,0 +1,134 @@
+body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+#container
+{
+    background-color:  #000033;
+	width: 100%;
+	height: 100%;
+
+}
+#glowna
+{
+	width: 100%;
+	height: 15%;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	
+}
+.logo
+{
+	margin-top: 1%;
+	margin-left: 10%;
+	font-size: 90px;
+	color: white;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+	position: absolute;
+    text-shadow: 1.5px 1.5px  #777777;
+}
+.logo:hover
+{
+color: grey;
+opacity: 0.5;	
+	
+}
+
+#mapa
+{
+	height: 85.9%;
+	width: 100%;
+	background-color: #CC6633;
+	border-bottom: 1px solid #ccc;
+	background-image: url("back.gif");
+}
+#wyszukaj
+{
+	position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+  	height: 25%;
+	width: 40%;
+	background:rgba(0,0,0,0.8);
+	border-radius: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+#stopka
+{
+	height: 10%;
+	width: 100%;
+	background-color: #fff;		
+}
+form
+{
+	margin-top: 12%;
+}
+form #wyslij 
+{
+	width: 120px;
+	height: 55px;
+	background-color: #ffaa01;
+	border-color: #ffaa01;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 10px 10px 10px 10px;
+	font-family:Courier New, monospace;
+}
+form #wyslij:hover
+{
+	background-color: #ee9900;
+	border-color: #ee9900;
+	color: ccc;
+	
+}
+form #szukaj
+{
+	width: 400px;
+	height: 55px;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 25px;
+	margin-right: 30px;
+	font-family:Courier New, monospace;
+}
+.wyszukaj
+{
+	font-size: 30px;
+	margin-left: 30.5%;
+	margin-top: 9.5%;
+	position: absolute;
+	color: #000066;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+	text-shadow: 1.5px 1.5px  #777777;
+}
+#stopka
+{
+	height: 3%;	
+	width: 100%;
+    border-top: 1px solid #ccc;
+		background-color: #eafcff;
+}
+.stopka
+{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 0.5%;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+
+}
+
+.tlo
+{
+margin-left: 10%;	
+margin-top: 12%;
+}
+
